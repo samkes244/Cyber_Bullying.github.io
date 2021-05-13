@@ -18,15 +18,24 @@
 }
 
 .saveyouself_container > h3 {
+  padding-left: 2vw;
   padding-bottom: 4vw;
-  font-weight: 490;
+  font-weight: 690;
   padding-top: 2vw;
   font-size: calc(14px + 0.7vw);
 }
 
 .saveyourself_adv > ul > li {
   line-height: 3;
-  font-size: calc(12px + 0.5vw);
+  font-size: calc(14px + 0.5vw);
+  font-weight: 590;
+}
+
+@media (max-width: 480px) {
+  .saveyourself_adv > ul > li {
+    margin-left: 7vw;
+    margin-right: 7vw;
+  }
 }
 
 .saveyourself_img {
@@ -36,5 +45,11 @@
 
 .saveyourself_adv {
   padding-bottom: 13vw;
+}
+
+@media (max-width: 480px) {
+  .saveyourself_adv {
+    padding-bottom: 20vw;
+  }
 }
 /*# sourceMappingURL=SaveYourself.css.map */

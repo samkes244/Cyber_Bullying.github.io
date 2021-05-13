@@ -11,7 +11,7 @@ function Form() {
   return (
     <div className="form">
       {show}
-      <form action="">
+      <div className="forms">
         <label>Enter Your Name</label>
         <input
           onChange={(e) => setData(e.target.value)}
@@ -29,7 +29,7 @@ function Form() {
             setInput(true);
           }}
         />
-      </form>
+      </div>
     </div>
   );
 }

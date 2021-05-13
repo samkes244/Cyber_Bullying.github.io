@@ -4,14 +4,20 @@
   width: 100%;
 }
 
-.form > form {
+.form > .forms {
   display: -ms-grid;
   display: grid;
   place-items: center;
   padding-bottom: 20vw;
 }
 
-.form > form > input {
+@media (max-width: 480px) {
+  .form > .forms {
+    padding-bottom: 30vw;
+  }
+}
+
+.form > .forms > input {
   width: 40vw;
   line-height: 2;
   border-radius: 4px;
@@ -23,19 +29,19 @@
 }
 
 @media (max-width: 480px) {
-  .form > form > input {
+  .form > .forms > input {
     width: 60vw;
   }
 }
 
-.form > form > label {
+.form > .forms > label {
   font-weight: 590;
   font-size: calc(14px + 0.9vw);
   padding-top: 3vw;
   padding-bottom: 1vw;
 }
 
-.form > form > textarea {
+.form > .forms > textarea {
   font-weight: 500;
   border-radius: 4px;
   border: 1px solid #eee;
@@ -47,12 +53,12 @@
 }
 
 @media (max-width: 480px) {
-  .form > form > textarea {
+  .form > .forms > textarea {
     width: 68vw;
   }
 }
 
-form {
+.forms {
   padding-bottom: 12vw;
 }
 

@@ -17,7 +17,8 @@
   padding-bottom: 3vw;
 }
 
-.complaint_content_holder > h3 {
+.complaint_container > h3 {
+  line-height: 2;
   padding-bottom: 4vw;
   font-weight: 490;
   padding-top: 2vw;
@@ -49,16 +50,6 @@
   padding-bottom: 3vw;
 }
 
-.complaint_container > h3 {
-  padding-bottom: 4vw;
-  line-height: 1.4;
-  font-weight: 490;
-  padding-top: 2vw;
-  font-size: calc(14px + 0.7vw);
-  margin-left: 3vw;
-  margin-right: 3vw;
-}
-
 .complaint_container > ul {
   margin-left: 7vw;
   margin-right: 7vw;
@@ -72,5 +63,17 @@
 
 .complaint_container > ul > li {
   line-height: 2;
+  font-size: calc(14px + 0.5vw);
+  font-weight: 590;
+}
+
+.complaint_container > h3 {
+  padding-bottom: 4vw;
+  line-height: 2;
+  font-weight: 690;
+  padding-top: 2vw;
+  font-size: calc(14px + 0.7vw);
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 /*# sourceMappingURL=Complaint.css.map */

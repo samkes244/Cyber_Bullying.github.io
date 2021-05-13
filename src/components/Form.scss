@@ -3,12 +3,15 @@
   color: #eee;
   width: 100%;
 }
-.form > form {
+.form > .forms {
   display: grid;
   place-items: center;
   padding-bottom: 20vw;
+  @media (max-width: 480px) {
+    padding-bottom: 30vw;
+  }
 }
-.form > form > input {
+.form > .forms > input {
   width: 40vw;
   line-height: 2;
   border-radius: 4px;
@@ -23,13 +26,13 @@
     width: 60vw;
   }
 }
-.form > form > label {
+.form > .forms > label {
   font-weight: 590;
   font-size: calc(14px + 0.9vw);
   padding-top: 3vw;
   padding-bottom: 1vw;
 }
-.form > form > textarea {
+.form > .forms > textarea {
   font-weight: 500;
   border-radius: 4px;
   border: 1px solid #eee;
@@ -44,7 +47,7 @@
     width: 68vw;
   }
 }
-form {
+.forms {
   padding-bottom: 12vw;
 }
 #submit {

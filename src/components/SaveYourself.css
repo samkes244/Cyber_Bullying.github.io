@@ -1,0 +1,40 @@
+.saveyourself {
+  background-color: #023e8a;
+  width: 100%;
+}
+
+.saveyouself_container {
+  display: -ms-grid;
+  display: grid;
+  color: #eee;
+  place-items: center;
+  padding-top: 2vw;
+}
+
+.saveyouself_container > h1 {
+  font-size: calc(24px + 1.4vw);
+  font-weight: 720;
+  padding-bottom: 3vw;
+}
+
+.saveyouself_container > h3 {
+  padding-bottom: 4vw;
+  font-weight: 490;
+  padding-top: 2vw;
+  font-size: calc(14px + 0.7vw);
+}
+
+.saveyourself_adv > ul > li {
+  line-height: 3;
+  font-size: calc(12px + 0.5vw);
+}
+
+.saveyourself_img {
+  padding-top: 1vw;
+  width: 50vw;
+}
+
+.saveyourself_adv {
+  padding-bottom: 13vw;
+}
+/*# sourceMappingURL=SaveYourself.css.map */

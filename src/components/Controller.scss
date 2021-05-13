@@ -1,0 +1,29 @@
+.controller {
+  position: fixed;
+  bottom: 0;
+}
+
+.controller_container {
+  background-color: #0077b6;
+  width: 100vw;
+  overflow: hidden;
+}
+.controller_container > ul {
+  display: flex;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  padding-left: 8vw;
+}
+.controller_container > ul > .li > li {
+  list-style: none;
+  border-radius: 6px;
+  color: #caf0f8;
+  width: 30vw;
+  line-height: 1;
+  font-size: calc(12px + 0.9vw);
+  font-weight: 590;
+  padding-right: 6vw;
+}
+.li {
+  text-decoration: none;
+}

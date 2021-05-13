@@ -1,0 +1,63 @@
+.complaint {
+  background-color: #023e8a;
+  color: #eee;
+  width: 100%;
+}
+.complaint_content_holder {
+  display: grid;
+  place-items: center;
+}
+.complaint_content_holder > h1 {
+  padding-top: 2vw;
+  font-size: calc(24px + 1.4vw);
+  font-weight: 720;
+  padding-bottom: 3vw;
+}
+.complaint_content_holder > h3 {
+  padding-bottom: 4vw;
+  font-weight: 490;
+  padding-top: 2vw;
+  font-size: calc(14px + 0.7vw);
+}
+.complaint_container {
+  margin-top: 4vw;
+  display: grid;
+  place-items: center;
+}
+.complaint_img {
+  padding-top: 1vw;
+  padding-bottom: 3vw;
+  border-bottom: 2px solid #eee;
+  width: 40vw;
+}
+.complaint_images {
+  width: 50vw;
+}
+.complaint_container > h2 {
+  padding-top: 2vw;
+  font-size: calc(15px + 1vw);
+  font-weight: 720;
+  padding-bottom: 3vw;
+}
+.complaint_container > h3 {
+  padding-bottom: 4vw;
+  line-height: 1.4;
+  font-weight: 490;
+  padding-top: 2vw;
+  font-size: calc(14px + 0.7vw);
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+.complaint_container > ul {
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+.complaint_ul_last {
+  margin-left: 7vw;
+  margin-right: 7vw;
+  padding-bottom: 13vw;
+}
+
+.complaint_container > ul > li {
+  line-height: 2;
+}

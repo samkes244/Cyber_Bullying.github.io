@@ -1,0 +1,71 @@
+.save {
+  background-color: #023e8a;
+  width: 100%;
+}
+
+.save_content_holder {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.save_content_holder > h1 {
+  padding-top: 2vw;
+  color: #eee;
+  text-align: center;
+  padding-bottom: 3vw;
+  font-weight: 720;
+  font-size: calc(24px + 1.4vw);
+}
+
+.save_img {
+  padding-top: 1vw;
+  border-bottom: 2px solid #fff;
+  width: 50vw;
+  padding-bottom: 3vw;
+}
+
+.save_container {
+  padding-top: 4vw;
+  padding-bottom: 15vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.save_container > p {
+  color: #eee;
+  line-height: 2;
+  font-size: calc(14px + 0.7vw);
+  font-weight: 590;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 2vw;
+}
+
+.p2 {
+  color: #eee;
+  font-size: calc(14px + 0.7vw);
+  font-weight: 590;
+  border-bottom: none;
+  padding-top: 2vw;
+}
+
+.save_adv {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.save_adv > ul {
+  padding-top: 2vw;
+  padding-left: 5vw;
+}
+
+.save_adv > ul > li {
+  color: #eee;
+  padding-top: 0.4vw;
+  font-size: calc(14px + 0.5vw);
+  font-weight: 300;
+  padding-bottom: 0.4vw;
+}
+/*# sourceMappingURL=Save.css.map */
